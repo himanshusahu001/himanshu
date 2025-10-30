@@ -1,0 +1,581 @@
+* {
+    text-decoration: none;
+    /* border: border-box; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#d {
+    /* position:sticky; */
+    background-color: white;
+    text-align: center;
+    border-bottom: rgb(42, 40, 40);
+    width: 100%;
+}
+
+.head {
+    /* position: sticky; */
+    display: flex;
+    /* width: 1070px; */
+    padding-top: 50px;
+    justify-content: space-evenly;
+    height: 66px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.DrzzelingDemo {
+    display: flex;
+    width: 1fr;
+    justify-content: center;
+    font-size: 30px;
+    color: #1FA67A;
+
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    padding: 1fr;
+    border: 2px rgb(26, 26, 38);
+    /* width: 422px; */
+    width: fr;
+    height: 66px;
+    gap: 30px;
+    text-decoration: none;
+    /* color: rgb(45, 39, 39); */
+    /* color: aqua; */
+}
+
+.border {
+    border: transparent;
+    cursor: pointer;
+}
+
+.border:hover {
+    border: 1.5px solid rgb(241, 248, 243);
+}
+
+.img {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 250px 200px;
+    grid-template-areas: "boxone" "boxtwo";
+    /* width: 1100px; */
+    height: 530px;
+    background-image: url(https://wallpapers.com/images/featured/photography-nature-background-h2ifm0bbe638sw4p.jpg);
+    align-items: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.boxtwo{
+display: grid;
+grid-template-columns: 450px 450px;
+grid-template-rows: 50px 100px;
+}
+p1{
+    color: white;
+    background-color:#1fa6798c;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+
+p2{
+    color: white;
+    background-color: rgba(50, 66, 56, 0.722);
+    height: 70px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    /* border: 1px solid black; */
+
+}
+/* .boxone {
+    grid-area: auto;
+    align-items: last baseline;
+    font-size: 30px;
+    padding: 20px 20px 20px 20px;
+    background-color: #059138b9;
+    color: white;
+    height: 100px;
+}
+
+.boxtwo {
+
+    grid-area: auto;
+    align-items: last baseline;
+    font-size: 30px;
+    padding: 20px 20px 20px 20px;
+    background-color: rgba(50, 66, 56, 0.722);
+    color: white;
+    width: 500px;
+
+}
+ */
+
+/* .new2{
+    height: 100px;
+    padding: 20px;
+display: flex;
+align-items: baseline;
+justify-content: flex-end ;
+bottom: 10px;
+} */
+
+/* 
+.new2{
+
+}
+
+ .boxone{
+ font-size: 30px;
+    /* padding: 20px 20px 0px 20px; */
+    /* background-color: #059138b9;
+    color: white;
+    height: 100px;
+ }
+
+
+ .boxtwo{
+padding: 20px 20px 20px 20px;
+    background-color: rgba(50, 66, 56, 0.722);
+    color: white;
+    width: 500px;
+ }
+ .new{ display: grid;
+    grid-template-rows: 500px 150px;
+    grid-template-columns: 600px;
+    grid-template-areas: " boxnone""new2"; */
+    /* height: 10px; */
+
+/* } */
+
+
+.base {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #1FA67A;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    /* border: border-box; */
+    /* width: 1123px; */
+}
+
+.botten {
+    align-items: center;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: transparent;
+    padding: 10px;
+    /* margin: 5px; */
+    /* border: border-box; */
+    border: 3px solid #1FA67A;
+
+}
+
+/* .botten::before{border: 1.5px transparent; } */
+.botten:hover {
+    border: 3px solid white;
+    border-radius: 7%;
+    /* margin: 5px; */
+    /* border: border-box; */
+}
+
+.home {
+    padding: 10px 10px 10px 10px;
+    border: 3px transparent;
+}
+
+.home:hover {
+    border-bottom: 3px solid #1FA67A;
+}
+
+.Gallery {
+    padding: 10px 10px 10px 10px;
+    border: 3px transparent;
+}
+
+.Gallery:hover {
+    border-bottom: 3px solid #1FA67A;
+}
+
+.Shortcode {
+    padding: 10px 10px 10px 10px;
+    border: 3px transparent;
+}
+
+.Shortcode:hover {
+    border-bottom: 3px solid #1FA67A;
+}
+
+.About {
+    padding: 10px 10px 10px 10px;
+    border: 3px transparent;
+}
+
+.About:hover {
+    border-bottom: 3px solid #1FA67A;
+}
+
+.Languages {
+    padding: 10px 10px 10px 10px;
+    border: 3px transparent;
+}
+
+.Languages:hover {
+    border-bottom: 3px solid #1FA67A;
+}
+
+/* .con {
+    display: grid;
+    grid-template-columns: 700px 315px;
+    grid-template-rows: 372px 372px 372px 372px 372px 372px;
+    grid-template-areas:
+        "box hi"
+        "box hi"
+        "box hi"
+        "box hi"
+        "box hi"
+        "box hi"; */
+/* } */
+
+.box {
+    border: 2PX solid black;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 700px;
+    background-color: rgb(0, 0, 0);
+     padding: 20px 0px 15px ;
+     margin-top: 15%;
+     color:#1FA67A;
+}
+
+h {
+    align-items: center;
+    /* padding: 0px 20px 20px 20px; */
+    margin: 2px solid black;
+    font-size: 30px;
+    background-color: white;
+}
+
+#box{
+    /* display: grid; */
+/* display: flex; */
+    padding: 25px;
+    height: 390px;
+    width: 680px;
+    margin: 25px;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+
+.boximg{
+    padding: 10px;
+    display: flex;
+height: 80%;
+    width: 70%;
+    background-image: url(https://wallpapercave.com/wp/wp3155700.jpg);
+background-size: cover;
+border-image-repeat: none;
+
+}
+
+.boximg2{
+    padding: 10px;
+    display: flex;
+height: 80%;
+    width: 70%;
+    background-image: url(https://c.wallhere.com/images/1a/ea/9995cf60599162095c37ff2e2943-1748963.jpg!d);
+background-size: cover;
+border-image-repeat: none;
+
+}
+
+
+.boximg3{
+    padding: 10px;
+    display: flex;
+height: 80%;
+    width: 70%;
+    background-image: url(https://c.pxhere.com/images/d1/6d/20d6e315f9b0d6567b582f7c5423-1668138.jpg!d);
+background-size: cover;
+border-image-repeat: none;
+
+}
+
+
+.boximg4{
+    padding: 10px;
+    display: flex;
+height: 80%;
+    width: 70%;
+    background-image: url(http://images4.fanpop.com/image/photos/23800000/Beautiful-Birds-beautiful-nature-23813827-1600-1200.jpg);
+background-size: cover;
+border-image-repeat: none;
+
+}
+
+
+.boximg5{
+    padding: 10px;
+    display: flex;
+height: 80%;
+    width: 70%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/029/212/700/non_2x/colorful-bird-with-natural-background-generative-ai-free-photo.jpg);
+background-size: cover;
+border-image-repeat: none;
+
+}
+
+
+
+
+.boximg6{
+    padding: 10px;
+    display: flex;
+height: 80%;
+    width: 70%;
+    background-image: url(https://cdn.pixabay.com/photo/2022/09/27/19/44/ai-generated-7483569_960_720.jpg);
+background-size: cover;
+border-image-repeat: none;
+
+}
+
+.p{ 
+    /* display: flex; */
+    padding: 10px;
+    height: 80%;
+    width: 300px; 
+
+
+}
+
+.con{
+    display: flex;
+    height: 400px;
+    width: 700px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 2px solid rgba(114, 114, 114, 0.505);
+}
+
+
+
+p3{position: relative;
+    top: 15px;
+    left: 50px;
+    font-size: 20px;
+    padding: 5px;
+    /* margin: 3px; */
+    border: 2px solid black;
+    border: border-box;
+}
+
+p3:hover{
+    color: white;
+    background-color: #1FA67A;
+}
+
+
+/* 
+#pi{position: relative;
+    top: 15px;
+    left: 50px;
+    font-size: 20px;
+    padding: 5px;
+    /* margin: 3px; */
+    /* border: 2px solid black;
+    border: border-box;
+}
+
+#pi:hover{
+    color: white;
+    background-color: rgb(23, 185, 79);
+} */ 
+
+
+
+
+.conpro{
+    /* display: grid;
+    grid-template-rows:2825px ;
+    grid-template-columns:800px 367px ;
+    grid-template-areas: "con1" "consh";
+*/
+display: flex;
+justify-content: center;
+
+
+}
+
+
+
+
+.consh{
+color: #1FA67A;
+}
+
+
+.sh{display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 600px;
+   padding: 10px;
+   padding-bottom: 0px;
+   margin-top: 5px ;
+}
+
+
+.search{width: 400px;
+
+}
+   .bott{
+    display: flex;
+    justify-content: space-evenly;
+
+   }
+
+   .link2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    /* padding: 1fr; */
+    border: 2px rgb(26, 26, 38);
+    /* width: 422px; */
+    width: 600px;
+    height: 40px;
+    margin: 0px;
+    gap: 200px;
+    text-decoration: none;
+    /* background-color: aquamarine; */
+    /* color: rgb(45, 39, 39); */
+    /* color: aqua; */
+}
+/* 
+.link:hover{
+    border-color: #1FA67A;
+} */
+
+
+.conside{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.c{
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    grid-template-rows: 75px;
+    grid-template-areas: "cimg" "ct";
+    width: 442px;
+    height: 100px;
+    /* padding: 20px; */
+    margin-top: 25px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(46, 38, 38);
+}
+
+  .cimg{
+height: 70px;
+width: 70px;
+border: 1px solid rgb(64, 56, 56);
+padding: 1px;margin: 10px;
+background-image: url(https://wallpapercave.com/wp/wp3155700.jpg);
+background-size: cover;
+  } 
+
+  .cimg2{
+height: 70px;
+width: 70px;
+border: 1px solid rgb(64, 56, 56);
+padding: 1px;margin: 10px;
+background-image: url(https://c.wallhere.com/images/1a/ea/9995cf60599162095c37ff2e2943-1748963.jpg!d);
+background-size: cover;
+  } 
+
+
+  .cimg3{
+height: 70px;
+width: 70px;
+border: 1px solid rgb(64, 56, 56);
+padding: 1px;margin: 10px;
+background-image: url(https://c.pxhere.com/images/d1/6d/20d6e315f9b0d6567b582f7c5423-1668138.jpg!d);
+background-size: cover;
+  } 
+
+
+
+  .cimg4{
+height: 70px;
+width: 70px;
+border: 1px solid rgb(64, 56, 56);
+padding: 1px;margin: 10px;
+background-image: url(http://images4.fanpop.com/image/photos/23800000/Beautiful-Birds-beautiful-nature-23813827-1600-1200.jpg);
+background-size: cover;
+  } 
+
+
+
+  .cimg5{
+height: 70px;
+width: 70px;
+border: 1px solid rgb(64, 56, 56);
+padding: 1px;margin: 10px;
+background-image: url(https://static.vecteezy.com/system/resources/previews/029/212/700/non_2x/colorful-bird-with-natural-background-generative-ai-free-photo.jpg);
+background-size: cover;
+  } 
+
+
+
+  .cimg6{
+height: 70px;
+width: 70px;
+border: 1px solid rgb(64, 56, 56);
+padding: 1px;margin: 10px;
+background-image: url(https://cdn.pixabay.com/photo/2022/09/27/19/44/ai-generated-7483569_960_720.jpg);
+background-size: cover;
+  } 
+
+.ct{
+/* display: flex; */
+    justify-content: left;
+    color:#1FA67A;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.bate{
+    color: rgb(41, 40, 40);
+
+    padding: 30px ;
+    padding-left: 0px;
+}
+
+
+
+.footer{height: 100px;
+    width: 100%;
+background-color: rgb(27, 26, 26);
+}
+
+
+.fimg{
+background-image: url(https://colorlibhub.com/wp-content/uploads/sites/54/2014/02/colorlib-logo.png);
+}
+
+
+
+.footertext{
+
+}

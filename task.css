@@ -1,0 +1,140 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.con{display: flex;justify-content: center;
+    font-size: 30px;
+    height: 50px;
+    background-color:  rgb(255, 106, 0);
+    color: white;
+}
+.con1 {
+    display: flex;
+    background-color: rgb(54, 0, 76);
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+p{height: px;
+width: 1200px;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+
+.con2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(255, 106, 0);
+    height: 600px;
+    /* border-bottom-right-radius: 25%;
+border-top-left-radius: 25% ; */
+    width: 1200px;
+    /* top: 30px; */
+}
+
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 200px;
+    margin: 100px;
+    background-color: rgb(54, 0, 76);
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+
+
+p1 {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(54, 0, 76);
+    font-size: 35px;
+    /* margin-top: 15px; */
+}
+
+p2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 106, 0);
+    margin-top: 5px;
+}
+
+
+.img1 {
+
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.dDzCwIKzkc4n_ith2VGpZgHaHa?pid=Api&P=0&h=180);
+    background-size: cover;
+    margin-top: 15px;
+}
+
+.img2 {
+
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0624/3123/2241/products/S57fbb15aa7df4b43bce683dc4d97881c7.jpg?v=1666114061);
+    background-size: cover;
+    margin-top: 15px;
+}
+
+.img3 {
+
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-image: url(https://www.horobox.com/Cms_Data/Contents/SampleBusiness/Media/Incelemeler/iwc-Pilots-Watch-Mark-XX-New-Models/iwc-pilots-watch-mark-xx-new-models-3-.jpg);
+    background-size: cover;
+    margin-top: 15px;
+}
+
+p3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 15px;
+
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 20%;
+    border-right: 20%;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-top-left-radius: 25PX;
+       border-top-right-radius: 25PX;
+       border-bottom-left-radius: 25PX;
+          border-bottom-right-radius: 25PX;
+}
+
+.c{  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+}

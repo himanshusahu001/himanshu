@@ -1,0 +1,268 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    border: border-box;
+    text-decoration: none;
+}
+
+
+
+
+.head{
+height: 53px;
+width: 270px;
+font-size: 48px;
+padding-left: 40px;
+padding-top: 40px;
+}
+
+
+
+.navbar{
+    height: 100px;
+    background-color:rgb(151, 90, 208);
+    color: white;
+}
+
+
+.navlink{position: relative;
+    display: flex;
+    justify-self: center;
+    align-items:last baseline;
+    gap: 40px;
+    bottom: 1px;
+    color: white;
+    height: 50px;
+    text-decoration: white;
+
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white ;
+
+}
+
+
+.lbox{
+    padding: 10px;
+    /* background-color:#1FA67A;; */
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+ 
+.img{
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/love.jpg);
+}
+
+/*
+.boximg{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    background-color
+    : #010705;
+}
+
+
+.boximg1{
+
+} */
+
+
+.baseline1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* padding-left: 5px ; */padding: 5px;
+}
+
+.o{
+    padding-left: 5px;
+}
+
+
+p{
+    font-size: 20px;
+}
+
+
+.love{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   width: 100%;
+   border-bottom: 2px solid rgba(157, 88, 222, 0.773);
+    font-size: 30px;
+    color: blueviolet;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.h{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.con{
+display: flex;
+justify-content: center;
+gap: 50px;
+
+}
+
+
+
+
+.box1{height: 355px;
+    width: 355px;
+    /* border: 1px solid rgb(76, 75, 75); */
+
+
+}
+
+.hii{display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+height: 50px;
+
+} 
+
+.line{
+    display: flex;
+}
+
+.imgl1{
+   /* flex-direction: column; */
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    background-image: url(https://cdn.pixabay.com/photo/2022/09/27/19/44/ai-generated-7483569_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.imgl2{
+   /* flex-direction: column; */
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    background-image: url(https://c.pxhere.com/images/d1/6d/20d6e315f9b0d6567b582f7c5423-1668138.jpg!d);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.imgl3{
+   /* flex-direction: column; */
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    background-image: url(https://wallpapercave.com/wp/wp3155700.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.t1{
+/* .t1
+{  flex-direction: column; */
+    font-size: 25px;
+    color: blueviolet;
+    padding-bottom: 10px;
+    padding: 10px;
+}
+
+.t2{
+    color: rgb(51, 49, 49);
+    padding-top: 20px;
+}
+.box2{
+height: 355px;
+    width: 355px;
+}
+
+
+.head3{
+height: 30px;
+justify-content: center;
+margin: 20px 0px 10px;
+padding-left: 20px;
+font-size: 28px;
+color: blueviolet;
+}
+
+.head4{
+padding: 15px;
+}
+
+.head5{
+padding: 15px;
+padding-top: 0%;
+}
+.botten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 1px solid rgba(99, 89, 89, 0.688);
+}
+
+
+
+
+.box3{
+height: 355px;
+    width: 355px;
+}
+
+
+
+.footer{display: flex;
+    align-items: baseline;
+
+    height: 100px;
+    background-color: rgb(155, 87, 219);
+color: white;
+
+}
+
+p7{
+    position: relative;
+    bottom: 0px;
+}
+
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 355px;
+}
+
+
+.kk{
+     height: 40px;
+    width: 300px;
+}
+
+.ll{height: 45.56px;
+
+}
+
+.last{
+    padding: 20px;
+}
